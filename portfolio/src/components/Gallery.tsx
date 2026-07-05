@@ -17,7 +17,7 @@ export default function Gallery() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.08 }}
               whileHover={{ scale: 1.03 }}
-              className="relative aspect-square w-full max-w-[250px] rounded-xl overflow-hidden glass group"
+              className="relative aspect-square w-full max-w-[350px] rounded-xl overflow-hidden glass group"
             >
               <img
                 src={img.src}
